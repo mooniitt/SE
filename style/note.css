@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+#contain{
+    width: 460px;
+    height: 640px;
+    background: #fff;
+    margin:0 auto;
+    margin-top: 80px;
+    box-shadow: 0 0 10px black;
+}
+#one{
+
+}
+#one .left{
+    width: 40px;
+    height: 60px;
+    background: cornflowerblue;
+    float: left;
+}
+#one .center{
+    width: 380px;
+    height: 60px;
+    background: gray;
+    float: left;
+}
+#one .center h1{
+    color:#fff;
+    text-shadow:0 0 10px black;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+#one .right{
+    width: 40px;
+    height: 60px;
+    background: darksalmon;
+    float: left;
+}
+
+#two{
+    opacity: 0.9;
+}
+#two .left{
+    width: 40px;
+    height: 520px;
+    background: cornflowerblue;
+    float: left;
+}
+#two .center{
+    width: 380px;
+    height: 520px;
+    background: #222c35;
+    float: left;
+}
+#two .right{
+    width: 40px;
+    height: 520px;
+    background: darksalmon;
+    float: left;
+}
+#two #content{
+    height: 520px;
+    width: 380px;
+    overflow: auto;
+    color: aliceblue;
+}
+
+#three{
+
+}
+#three .left{
+    width: 40px;
+    height: 60px;
+    background:cornflowerblue;
+    float: left;
+}
+#three .center{
+    width: 380px;
+    height: 60px;
+    background: gray;
+    float: left;
+}
+#three .center .button{
+}
+#three .center{
+    display: block;
+    float: left;
+}
+#three .center .button{
+    margin-top: 5px;
+    width: 50px;
+}
+#three .center #ok{
+    display: block;
+    float: left;
+    margin-left: 100px;
+}
+
+.button:hover{
+    -webkit-filter:brightness(2.0);
+}
+#three .center #cancel{
+    display: block;
+    float: right;
+    margin-right: 100px;
+}
+#three .right{
+    width: 40px;
+    height: 60px;
+    background: darksalmon;
+    float: left;
+}
+
+#editor {
+    display: block;
+    height: 500px;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/*
+div{
+    border: #000 1px solid;
+}
+#one {
+    width: 800px;
+    height: 100px;
+    background: #999;
+}
+#one h1{
+    font-size: 20px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+#two{
+    width:800px;
+    height: 600px;
+    background-color: #298;
+}
+#three{
+    width: 800px;
+    height: 100px;
+    background: #a43;
+}
+.grid{
+    position: absolute;
+}
+.top{
+    top:0;
+    height: 82px;
+}
+.mid{
+    top:82px;
+    bottom:84px;
+}
+.bottom{
+    height: 84px;
+    bottom:0px;
+}
+.left{
+    left:0px;
+    width: 16px;
+}
+.center{
+    left:16px;
+    right:16px;
+}
+.right{
+    right:0px;
+    width:16px;
+}
+#content{
+    font-family: 微软雅黑;
+    text-shadow: #000000 0 0;
+}
